@@ -3,7 +3,7 @@ Scripts for the dynamic binary analysis tool Triton
 
 ## Example 1
 
-Example taint analysis of binary in Triton
+Example binary taint analysis script using Triton. Traces the instructions that are affected by user input throughout the hash function in the `hashmenot` binary.
 
 ```
 chase@chase:~/github/triton-scripts/taint$ ./taint_hash.py 
